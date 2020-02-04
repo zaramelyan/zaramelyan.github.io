@@ -4,8 +4,12 @@ body {
 }
 
 .container {
-    width: 80vw;
+    width: 100vw;
     height: 80vh;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .counter {
@@ -29,6 +33,7 @@ button {
 .around {
     display: block;
     margin: auto;
+    text-align: center;
    
 }
 
@@ -49,4 +54,5 @@ p {
     font-size: 200px;
     position: absolute;
     color: rgba(128, 128, 128, 0.247);
+    text-align: center;
 }
