@@ -11,6 +11,11 @@ justify-content: center;
 
 h1 {
   font-weight: 100;
+  margin: 20px;
+}
+
+p {
+  margin: 20px;
 }
 
 ul {
@@ -67,12 +72,15 @@ li:hover {
 
 .project:hover {
   cursor: pointer;
+  background-color: rgba(182, 181, 184, 0.11);
 }
 
 footer {
-    position: fixed;
+    position: relative;
+    top: 50px;
     bottom: 0;
     text-align: center;
+    color: grey;
 }
 
 a:link {
