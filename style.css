@@ -1,11 +1,16 @@
 .logo {
     font-family: 'Questrial', sans-serif;
+    font-size: 25px;
 }
 
 body {
 font-family: 'Roboto', sans-serif;
 margin: 20px;
 justify-content: center;
+}
+
+h1 {
+  font-weight: 100;
 }
 
 ul {
@@ -17,6 +22,7 @@ li {
     list-style: none;
     display: inline;
     margin-right: 5px;
+    font-size: 19px;
 }
 
 li:hover {
@@ -25,23 +31,66 @@ li:hover {
 }
 
 .container {
-    width: 80vw;
+  width: 80vw;
     height: 80vh;
-    background-color: rgba(248, 78, 191, 0.144);
+    margin: auto;
+    margin-top: 5px;
     padding: 20px;
 }
 
+.main {
+    width: 80vw;
+    height: 70vh;
+    background-color: rgba(78, 146, 248, 0.089);
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.projectbox {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
 .project {
- background-color: aliceblue;
- width: 400px;
- height: 200px;
+ background-color: rgba(255, 255, 255, 0.651);
+ width: 350px;
+ height: 170px;
  margin: 20px;
  color: rgb(78, 42, 42);
+ border-radius: 6px;
+ border: 2px dashed white;
+ text-align: center;
+}
+
+.project:hover {
+  cursor: pointer;
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: grey;
+}
+
+a:active {
+ color: yellow;
 }
 
 
