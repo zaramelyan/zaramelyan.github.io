@@ -1,0 +1,52 @@
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 80vw;
+    height: 80vh;
+}
+
+.counter {
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.247);
+    margin: auto;
+    justify-content: center;
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+}
+
+button {
+    border-radius: 4px;
+    border-style: none;
+    color: rgb(99, 98, 98);
+    font-family: 'Bebas Neue';
+    width: 100px;
+    height: 40px;
+}
+
+.around {
+    display: block;
+    margin: auto;
+   
+}
+
+p {
+    text-align: center;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color:red;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.backgroundtext {
+    font-family:'Bebas Neue';
+    font-size: 200px;
+    position: absolute;
+    color: rgba(128, 128, 128, 0.247);
+}
