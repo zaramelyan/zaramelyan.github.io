@@ -1,0 +1,76 @@
+.logo {
+    font-family: 'Questrial', sans-serif;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+margin: 20px;
+justify-content: center;
+}
+
+ul {
+    margin: none;
+    display: inline;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin-right: 5px;
+}
+
+li:hover {
+    border-bottom: 2px dotted;
+
+}
+
+.container {
+    width: 80vw;
+    height: 80vh;
+    background-color: rgba(248, 78, 191, 0.144);
+    padding: 20px;
+}
+
+.project {
+ background-color: aliceblue;
+ width: 400px;
+ height: 200px;
+ margin: 20px;
+ color: rgb(78, 42, 42);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+
+
+.animated {
+    margin: 30px auto 10px auto;
+    font-family: "Comfortaa";
+    font-size: 6rem;
+    color: rgba(209, 233, 243, 0.534);
+    background-image: url("hicliparttwo.com.png");
+    background-size: 130px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-repeat: repeat-x;
+    animation: water 8s linear infinite;
+  }
+  
+  
+  /*ZARA STYLING SPLASH LOGO*/
+  
+  @keyframes water {
+    from {
+      background-position: left 0 top 0;
+    }
+    to {
+      background-position: left 800px top 0;
+    }
+  }
+  
