@@ -42,7 +42,7 @@ console.log(e.screenX, e.screenY)
         var dot =  '<span class="dot" style="position: absolute; top: ' + randomY + 'px; left:  ' + randomX + 'px;"></span>'
         dots.push(dot)
         console.log(dots)
-        background = '<p class="backgroundtext">find the spot</p>';
+        background = '<p class="backgroundtext">find the dot</p>';
         document.querySelector('.container').innerHTML = background + dots.join(' ');
         
         starter();
