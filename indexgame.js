@@ -14,7 +14,7 @@ if (counter === 10 ) {
 }
 
 if (counter === 0) {
-    document.querySelector('.container').innerHTML = '<p class="backgroundtext">find the spot</p>'
+    document.querySelector('.container').innerHTML = '<p class="backgroundtext">find the dot</p>'
 }
     randomX = Math.floor(Math.random() * (screen.width - 100));
     randomY = Math.floor(169 + Math.random() * (screen.height - 300)) ;
