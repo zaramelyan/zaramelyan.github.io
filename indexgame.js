@@ -10,12 +10,15 @@ var container = document.querySelector('.container')
 function starter() {
     
 if (counter === 10 ) {
-    document.querySelector('.container').innerHTML = '<p class="backgroundtext" >You win</p>'
+    document.querySelector('.container').innerHTML = '<p class="backgroundtext" >You win</p>';
+    randomX = -1;
+    randomY = -1;
 }
 
 if (counter === 0) {
     document.querySelector('.container').innerHTML = '<p class="backgroundtext">find the dot</p>'
 }
+
     randomX = Math.floor(Math.random() * (screen.width - 100));
     randomY = Math.floor(169 + Math.random() * (screen.height - 300)) ;
     console.log('position ' + randomX, randomY);
