@@ -67,7 +67,7 @@ li:hover {
  height: 170px;
  margin: 20px;
  color: rgb(78, 42, 42);
- border-radius: 6px;
+ border-radius: 25px;
  border: 1px dashed white;
  text-align: center;
 }
@@ -75,7 +75,7 @@ li:hover {
 .project:hover {
   cursor: pointer;
   background-color: rgb(255, 255, 255);
-  border-color: skyblue;
+  border-color: rgba(103, 138, 153, 0.432);
 }
 
 footer {
