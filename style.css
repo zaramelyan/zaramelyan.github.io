@@ -91,6 +91,9 @@ a:link {
   color: inherit;
 }
 
+.coming {
+  text-decoration: line-through;
+}
 
 .github:hover {
   color: magenta;
