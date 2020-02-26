@@ -76,6 +76,8 @@ li:hover {
   cursor: pointer;
   background-color: rgb(255, 255, 255);
   border-color: rgba(103, 138, 153, 0.432);
+  animation-name: flipper;
+  animation-duration: 2s;
 }
 
 footer {
@@ -95,18 +97,6 @@ a:link {
   text-decoration: line-through;
 }
 
-
-.project:hover {
-  animation-name: flipper;
-  animation-duration: 2s;
-}
-
-@keyframes flipper {
-  0%   {transform: rotateY(0deg)}
-  50% {transform: rotateY(150deg)}
-  100% {transform: rotateY(0deg);}
-}
-
 .github:hover {
   color: magenta;
 }
@@ -124,10 +114,15 @@ a:active {
  color: yellow;
 }
 
+/*Animation */
 
 
 
-
+@keyframes flipper {
+  0%   {transform: rotateY(0deg)}
+  50% {transform: rotateY(150deg)}
+  100% {transform: rotateY(0deg);}
+}
 
 .animated {
     margin: 30px auto 10px auto;
