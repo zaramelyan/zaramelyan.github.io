@@ -73,7 +73,7 @@ li:hover {
 }
 
 .one-edge-shadow {
-  box-shadow: 0 8px 6px -6px grey;
+  box-shadow: 0 8px 6px -6px rgb(243, 191, 211);
 }
 
 .project:hover {
