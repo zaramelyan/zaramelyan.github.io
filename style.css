@@ -72,6 +72,10 @@ li:hover {
  text-align: center;
 }
 
+.one-edge-shadow {
+  box-shadow: 0 8px 6px -6px grey;
+}
+
 .project:hover {
   cursor: pointer;
   background-color: rgb(255, 255, 255);
