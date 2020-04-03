@@ -215,7 +215,8 @@ a:active {
        }
 
     .animated {
-      font-size: 4rem;
+      font-size: 3rem;
+      background-size: 80px;
     }
 
     .card {
