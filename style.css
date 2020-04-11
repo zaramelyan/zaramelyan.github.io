@@ -60,6 +60,7 @@ li:hover {
     color: rgb(83, 83, 83);
 }
 
+
 .intro {
   display: flex;
   flex-direction: column;
@@ -92,6 +93,7 @@ p {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
+  align-items: flex-start;
 }
 
 /*CARDS*/

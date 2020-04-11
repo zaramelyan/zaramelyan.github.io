@@ -15,6 +15,8 @@ if (counter === 10 ) {
     randomY = -1;
 }
 
+
+//todo: console log width of an element
 if (counter === 0) {
     document.querySelector('.container').innerHTML = '<p class="backgroundtext">find the dot</p>'
 }
