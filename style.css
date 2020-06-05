@@ -17,8 +17,7 @@ justify-content: center;
 
 h1 {
   font-weight: 100;
-  margin-top: 30px;
-  margin-bottom: 5px;
+  justify-content: center;
 }
 
 
@@ -34,6 +33,10 @@ li {
     font-size: 19px;
 }
 
+.socket {
+  font-family: 'DM Mono';
+}
+
 li:hover {
     border-bottom: 2px dotted;
     color: rgba(104, 189, 149, 0.616);
@@ -41,7 +44,7 @@ li:hover {
 }
 
 .container {
-  width: 80vw;
+  width: 100vw;
     min-height: 80vh;
     max-height: 100%;
     margin: auto;
